@@ -1,0 +1,17 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    scroll:no
+}
+.title{
+    text-align: center;
+}
+/*16:10*/
+.view{
+    text-align: center;
+}
+#canvas{
+    margin-top: 5px;
+    border: 0px solid red;
+    background: black;
+}
