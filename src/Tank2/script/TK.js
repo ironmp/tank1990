@@ -3,10 +3,8 @@
  */
 
 
-window.tk = (function(window,canvas){
+var TK = function(canvas){
     var p1,p2,cvs,ctx,
-        doc = window.document,
-        tk = {},
         w = 35,
         h = 35,
         keyCode ={
@@ -25,11 +23,11 @@ window.tk = (function(window,canvas){
         tank = function(img,x,y,width,height,missile){
             var t = this;
             ways.forEach(function (w) {
-                var img = new Image();
-                img.src = img[w];
-                img.onload = function () {
-                    t[w] = img;
-                    t.tank = img;
+                var i = new Image();
+                i.src = img[w];
+                i.onload = function () {
+                    t[w] = i;
+                    t.tank = i;
                 }
             });
             this.x = 10;
@@ -42,9 +40,6 @@ window.tk = (function(window,canvas){
             if(width) this.w = width;
             if(height) this.h = height;
             if(missile) this.missile = missile;
-            //this.turnTo = function(way){
-            //    if(this[way]) this.tank = this[way];
-            //}
             this.turnTo = function(kc){
                 switch (kc){
                     case keyCode.A: this.tank = this['L']; break;
@@ -95,28 +90,35 @@ window.tk = (function(window,canvas){
     })()
         ;
 
-    cvs = (typeof canvas == 'string')?document.getElementById(canvas):canvas;
+    cvs = document.getElementById(canvas);
     ctx = cvs.getContext('2d');
     //16:10
     cvs.width = 500;
     cvs.height = 600;//640
-    tk.setSize = function(w,h){
+    this.setSize = function(w,h){
         if(w)cvs.width = w;
         if(h)cvs.height = h;
     };
-    tk.init = function(){
+    this.initData = function(){
         p1 = new tank(IMG.p1);
     };
-    tk.onkeydown = function(e){
+    this.start = function(){
+        requestAnimationFrame(go);
+    }
+    function go(){
+        ctx.drawImage(p1.tank,p1.x,p1.y,p1.w,p1.h);
+        //ctx.drawImage(img,10,10,35,35);
+        requestAnimationFrame(go);
+    }
+    document.onkeydown = function(e){
         // w 87/ s 83/ a 65/ d 68
         p1.turnTo(e.keyCode);
     }
-    tk.onkeyup = function(e){
+    document.onkeyup = function(e){
         p1.turnTo(e.keyCode);
     }
-    tk.onkeypress = function(e){
+    document.onkeypress = function(e){
         p1.moveTo(e.keyCode);
     }
 
-    return tk;
-});
+}

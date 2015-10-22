@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/Tank2/script/tank.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -33,14 +33,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TK.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tank2/script/TK.js">
+      <file leaf-file-name="tk.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tank2/script/tk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36395758">
-              <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.3286219">
+              <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
+                <element signature="e#141#269#0" expanded="false" />
+                <element signature="e#321#393#0" expanded="false" />
+                <element signature="e#2153#2672#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requestNextAnimationFrame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tank2/script/requestNextAnimationFrame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +61,8 @@
       <file leaf-file-name="tank.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tank2/tank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.620689">
-              <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+            <state vertical-scroll-proportion="-22.275862">
+              <caret line="35" column="76" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -72,9 +85,10 @@
         <option value="$PROJECT_DIR$/Tank2/script/jquery-1.11.3.js" />
         <option value="$PROJECT_DIR$/Tank2/style/tank.css" />
         <option value="$PROJECT_DIR$/docs/Design.txt" />
+        <option value="$PROJECT_DIR$/Tank2/script/TK.js" />
         <option value="$PROJECT_DIR$/Tank2/tank.html" />
         <option value="$PROJECT_DIR$/Tank2/script/tank.js" />
-        <option value="$PROJECT_DIR$/Tank2/script/TK.js" />
+        <option value="$PROJECT_DIR$/Tank2/script/tk.js" />
       </list>
     </option>
   </component>
@@ -393,18 +407,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tank2/tank.html">
+    <entry file="file://$PROJECT_DIR$/Tank2/script/requestNextAnimationFrame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.620689">
-          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tank2/script/requestNextAnimationFrame.js">
+    <entry file="file://$PROJECT_DIR$/Tank2/tank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0388691">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state vertical-scroll-proportion="-22.275862">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -412,19 +426,22 @@
     <entry file="file://$PROJECT_DIR$/Tank2/script/tank.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tank2/script/TK.js">
+    <entry file="file://$PROJECT_DIR$/Tank2/script/tk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36395758">
-          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.3286219">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#141#269#0" expanded="false" />
+            <element signature="e#321#393#0" expanded="false" />
+            <element signature="e#2153#2672#0" expanded="false" />
           </folding>
         </state>
       </provider>
